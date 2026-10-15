@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: rgb(14, 6, 45);
+  height: 100vh;
 }
 
 .App-logo {
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #607ebb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +26,66 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
+}
+
+.my-header {
+  background-color: #666abd;
+  min-height: 6vh;
+  display: flex;
+  align-items: center; /** vertical */
+  justify-content: center;
+  position: relative;
+  /* font-size: calc(vmin); */
+  padding: 10px;
+  color: white;
+}
+
+.my-footer {
+  /* background-color: #242769; */
+  min-height: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /** vertical */
+  border-top: 2px solid  #607ebb;
+  justify-content: center;
+  font-size: 12px;
+  font-style: italic;
+  padding: 1px;
+  color: #bccded;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.main-site {
+  /* height: fit-content; */
+  color:rgb(248, 248, 248);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.my-button {
+  background-color: #4c0e58;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-weight: bolder;
+  color: white;
+  border: none;
+  margin-left: 5px;
+}
+
+.my-button:hover{
+  background-color: rgb(127, 111, 166);
 }
 
 @keyframes App-logo-spin {
