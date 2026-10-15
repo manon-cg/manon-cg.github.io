@@ -2,14 +2,13 @@ import logo from './logo.svg';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import './App.css';
+import PortfolioPage from './components/PortfolioPage';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <div className="main-site">
-        <h1>Under construction!</h1>
-      </div>
+      <PortfolioPage />
       <Footer />
 
       {/* <header className="App-header">
