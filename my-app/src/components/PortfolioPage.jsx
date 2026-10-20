@@ -1,51 +1,68 @@
 import ProjectPreview from './ProjectPreview';
 import so_long_pic from '../assets/so_long_screencap.png'
+import minishell_pic from '../assets/minishell_screencap.png'
+import sf_pic from '../assets/sounds_familiar.png'
+import f2h_pic from '../assets/f2h_screencap.png'
+import cub3d_pic from '../assets/cub3d_screencap.png'
+import webserv_pic from '../assets/webserv_placeholder.png'
+import transcendence_pic from '../assets/transcendence_placeholder.png'
 
 export default function PortfolioPage(){
 	return (
 		<div className="all-blocks">
-			<div className="main-site">
+			{/* <div className="main-site">
 			<h1>Portfolio (under construction)</h1>
-			</div>
-			<div style={{padding: "5px", backgroundColor: "#bd71c0", width: "100%", height: "20px"}}>CODAM Projects</div>
+			</div> */}
+			<div style={{backgroundColor: "#bd71c0", width: "100%", height: "100%", alignContent: "center", textAlign: "center", justifyContent: "center", justifyItems: "center"}}><h2>CODAM Projects</h2></div>
 			<div className="experience-block">
 				<ProjectPreview
-				ProjectName={"MiniShell"}
-				ProjectPic={""}
+				ProjectName={"minishell"}
+				ProjectPic={minishell_pic}
 				ProjectStack={"C, Bash"}
+				ProjectURL={"https://github.com/manon-cg/minishell"}
+				ProjectDescription={"Team project to create a Unix shell in C that functions like Bash. Focus points were parsing command line input, process forking, I/O redirection and basic signal handling."}
+				/>
+				<ProjectPreview
+				ProjectName={"cub3d"}
+				ProjectPic={cub3d_pic}
+				ProjectStack={"C, MLX42"}
+				ProjectDescription={"Team project to create a Wolfenstein-like 3D game where you can walk through a maze of blocks in first person view. Involved parsing maps, ray casting the visuals using vector mathematics, and allowing smooth player movement, using the school graphical library (MLX42)."}
 				/>
 				<ProjectPreview
 				ProjectName={"so_long"}
 				ProjectPic={so_long_pic}
 				ProjectStack={"C, MLX42"}
-				/>
-				<ProjectPreview
-				ProjectName={"cub3d"}
-				ProjectPic={""}
-				ProjectStack={"C, MLX42"}
+				ProjectDescription={"Solo project to build a 2D game in C, using the school's MLX42 graphic library. The user can load a map that will be parsed for walkability and rendered for the player, who needs to exit through the door after collecting all collectibles."}
 				/>
 				<ProjectPreview
 				ProjectName={"webserv"}
-				ProjectPic={""}
+				ProjectPic={webserv_pic}
 				ProjectStack={"C++, HTTP, "}
+				ProjectDescription={"Team project to build a functioning HTTP 1.1 server in C++. This involved research into protocols and sockets, parsing of configuration files and HTTP requests, and building the correct responses following request execution."}
 				/>
 				<ProjectPreview
-				ProjectName={"ft_transcendance"}
-				ProjectPic={""}
-				ProjectStack={"TypeScript, React, Express"}
+				ProjectName={"ft_transcendence"}
+				ProjectPic={transcendence_pic}
+				ProjectStack={"TypeScript, React, ExpressJS"}
+				ProjectURL={"https://github.com/SmokedSeaSalt/Transcendence"}
+				ProjectDescription={"Team project to build a web application. We chose a multiplayer speed-typing game, where players are connected together in a room using sockets that pass their progress to each other. We used React and TypeScript for the frontend, ExpressJS and TypeScript for the backend, and PostgreSQL for the database."}
 				/>
 			</div>
-			<div style={{padding: "5px", backgroundColor: "#b0caa0", width: "100%", height: "20px"}}>Game Jams</div>        
+			<div style={{backgroundColor: "#b0c071", width: "100%", height: "100%", alignContent: "center", textAlign: "center", justifyContent: "center", justifyItems: "center"}}><h2>Game Jams</h2></div>
 			<div className="experience-block">
 			<ProjectPreview
-				ProjectName={"PixelForge #2"}
-				ProjectPic={""}
+				ProjectName={"Pixel Forge JAM #2"}
+				ProjectPic={sf_pic}
 				ProjectStack={"Godot,"}
+				ProjectURL={"https://plutopu.itch.io/sounds-familiar"}
+				ProjectDescription={"Game built with a team in Godot during a weeklong game jam."}
 			/>
 			<ProjectPreview
 				ProjectName={"CODAM Game Jam"}
-				ProjectPic={""}
+				ProjectPic={f2h_pic}
 				ProjectStack={"Godot,"}
+				ProjectURL={"https://plutopu.itch.io/farm2harm"}
+				ProjectDescription={"Game built with a team in Godot during a weeklong game jam."}
 			/>
 			</div>
 			{/* <div className="experience-block">Websites</div> */}
