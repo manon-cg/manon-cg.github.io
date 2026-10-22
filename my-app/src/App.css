@@ -100,10 +100,12 @@
   border: none;
   padding: 10px;
   margin-left: 5px;
+  transition: transform ease 0.2s;
 }
 
 .img-button:hover {
-  background-color: #bccded;
+  /* background-color: #bccded; */
+  transform: translate(0, -6px);
 }
 
 .all-blocks{
@@ -144,22 +146,20 @@
   opacity: 50%;
 } */
 
-div:hover {
+#picture:hover {
   opacity: var(--hover-opacity);
 }
 
-.preview-img {
+/* .preview-img {
   width: 100%;
   aspect-ratio: 600 / 260;
-  /* background-image: url(assets/cub3d_screencap.png); */
   background-size: cover;
   background-position: center;
 }
 
 .preview-img:hover{
   opacity: 50%;
-  /* or another effect */
-}
+} */
 
 /* @keyframes App-logo-spin {
   from {
