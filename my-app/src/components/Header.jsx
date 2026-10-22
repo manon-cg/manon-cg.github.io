@@ -1,19 +1,21 @@
 /** imports here */
-import Button from "./Button";
+import ImageButton from "./ImageButton";
+import linkedin_img from "../assets/linkedin_logo.png"
+import github_img from "../assets/github_logo.svg"
 
 export default function Header(){
 
 	return (
 		<div className="my-header">
-			<div style={{position: "fixed", left: "10px", margin: "10px"}}><h1>Portfolio</h1></div>
+			<div style={{position: "fixed", left: "10px", margin: "10px"}}><h1>PORTFOLIO</h1></div>
 			<div style={{position: "fixed", right: "10px", display: "flex", alignContent: "center", justifyItems: "center", margin: "10px"}}>
-				<Button
+				<ImageButton
 					buttonLink={"https://www.linkedin.com/in/manon-groos/"}
-					buttonText={"LinkedIn"}
+					buttonImg={linkedin_img}
 				/>
-				<Button
+				<ImageButton
 					buttonLink={"https://github.com/manon-cg"}
-					buttonText={"GitHub"}
+					buttonImg={github_img}
 				/>
 			</div>
 		</div>

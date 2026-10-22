@@ -30,9 +30,14 @@
   color: #61dafb;
 } */
 
+/* .a:hover {
+  opacity: 50%;
+} */
+
 .my-header {
-  background-color: #666abd;
-  min-height: 5vh;
+  /* background-color: #666abd; */
+  background-color: #463183;
+  min-height: 6vh;
   display: flex;
   align-items: center; /** vertical */
   justify-content: center;
@@ -45,20 +50,19 @@
 .my-footer {
   /* background-color: #242769; */
   background-color: rgb(14, 6, 45);
-  min-height: 2vh;
+  min-height: 3vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
-  align-items: center; /** vertical */
+  align-items: end;
   border-top: 2px solid  #3a4f7a;
   justify-content: center;
   font-size: 12px;
-  padding: 1px;
   font-weight: bold;
   color: #bccded;
-  position: fixed;
+  position: sticky;
   bottom: 0px;
   width: 100%;
-  z-index: 100;
 }
 
 .main-site {
@@ -89,6 +93,19 @@
   background-color: rgb(127, 111, 166);
 }
 
+.img-button {
+  /* background-color: #4c0e58; */
+  border-radius: 20px;
+  background: transparent;
+  border: none;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.img-button:hover {
+  background-color: #bccded;
+}
+
 .all-blocks{
   display: flex;
   flex-direction: column; /** stack on top */
@@ -98,7 +115,7 @@
 }
 
 .experience-block{
-  background-color: #bccded;
+  background-color: #bd9ccc;
   width: 90vw;
   max-width: 1600px;
   min-height: 100px;
@@ -106,23 +123,43 @@
   /* justify-content: center; */
   margin-bottom: 20px;
   flex-wrap: wrap;
-  margin-top: 5px;
+  /* margin-top: 20px; */
   border-radius: 10px;
   display: flex;
   /* flex-direction: column; */
   position: relative;
   align-items: stretch;
+  overflow: hidden;
 }
 
-.project-preview{
-  background-color: rgb(173, 136, 188);
-  /* width: calc(50% - 8px); */
-  width: 50%;
-  /* min-height: 100%; */
-  
-  
+/* .project-preview{
+  width: 100%;
+  aspect-ratio: 600 / 260;
+  background-image: 'url(' + var(--project-pic) + ')';
+  background-size: cover;
+  background-position: center;
+}  
+
+.project-preview:hover{
+  opacity: 50%;
+} */
+
+div:hover {
+  opacity: var(--hover-opacity);
 }
 
+.preview-img {
+  width: 100%;
+  aspect-ratio: 600 / 260;
+  /* background-image: url(assets/cub3d_screencap.png); */
+  background-size: cover;
+  background-position: center;
+}
+
+.preview-img:hover{
+  opacity: 50%;
+  /* or another effect */
+}
 
 /* @keyframes App-logo-spin {
   from {
