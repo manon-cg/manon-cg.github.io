@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a0a7c7c.css",
-    "main.js": "/static/js/main.eda96ae0.js",
+    "main.css": "/static/css/main.844d3d21.css",
+    "main.js": "/static/js/main.615994f3.js",
     "static/js/453.35732811.chunk.js": "/static/js/453.35732811.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/cub3d_screencap2.png": "/static/media/cub3d_screencap2.b8ba15ae432a5cb19f7d.png",
+    "static/media/webserv_cap.png": "/static/media/webserv_cap.2a85727412e96ac35194.png",
+    "static/media/transcendence_screencap.png": "/static/media/transcendence_screencap.6df15f2868d311e05892.png",
+    "static/media/so_long_screencap.png": "/static/media/so_long_screencap.0c34da7e47a4b0d3f8fa.png",
+    "static/media/f2h_screencap2.png": "/static/media/f2h_screencap2.6e3d762fdf181ff0eb3b.png",
+    "static/media/sounds_familiar_cap2.png": "/static/media/sounds_familiar_cap2.5f7f9b04959e09d39ed0.png",
+    "static/media/minishell_screencap.png": "/static/media/minishell_screencap.595795c3336cd5585bc2.png",
+    "static/media/linkedin_logo.png": "/static/media/linkedin_logo.a95afc06831647f5fca2.png",
+    "static/media/github_logo.svg": "/static/media/github_logo.b33659390890d2122dd9b0af3643ddfe.svg",
     "index.html": "/index.html",
-    "main.9a0a7c7c.css.map": "/static/css/main.9a0a7c7c.css.map",
-    "main.eda96ae0.js.map": "/static/js/main.eda96ae0.js.map",
+    "main.844d3d21.css.map": "/static/css/main.844d3d21.css.map",
+    "main.615994f3.js.map": "/static/js/main.615994f3.js.map",
     "453.35732811.chunk.js.map": "/static/js/453.35732811.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a0a7c7c.css",
-    "static/js/main.eda96ae0.js"
+    "static/css/main.844d3d21.css",
+    "static/js/main.615994f3.js"
   ]
 }
