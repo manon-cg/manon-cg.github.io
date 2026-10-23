@@ -146,20 +146,9 @@
   opacity: 50%;
 } */
 
-#picture:hover {
-  opacity: var(--hover-opacity);
-}
-
-/* .preview-img {
-  width: 100%;
-  aspect-ratio: 600 / 260;
-  background-size: cover;
-  background-position: center;
-}
-
-.preview-img:hover{
+#preview-img:hover{
   opacity: 50%;
-} */
+}
 
 /* @keyframes App-logo-spin {
   from {
