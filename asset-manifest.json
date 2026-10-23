@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.844d3d21.css",
-    "main.js": "/static/js/main.615994f3.js",
+    "main.css": "/static/css/main.f01f8e34.css",
+    "main.js": "/static/js/main.5d0e5de9.js",
     "static/js/453.35732811.chunk.js": "/static/js/453.35732811.chunk.js",
     "static/media/cub3d_screencap2.png": "/static/media/cub3d_screencap2.b8ba15ae432a5cb19f7d.png",
-    "static/media/webserv_cap.png": "/static/media/webserv_cap.2a85727412e96ac35194.png",
+    "static/media/webserv_cap.png": "/static/media/webserv_cap.69cb65ae3a9e4e83a31f.png",
+    "static/media/philo_screencap.png": "/static/media/philo_screencap.801bc784db82b5076763.png",
     "static/media/transcendence_screencap.png": "/static/media/transcendence_screencap.6df15f2868d311e05892.png",
     "static/media/so_long_screencap.png": "/static/media/so_long_screencap.0c34da7e47a4b0d3f8fa.png",
     "static/media/f2h_screencap2.png": "/static/media/f2h_screencap2.6e3d762fdf181ff0eb3b.png",
@@ -13,12 +14,12 @@
     "static/media/linkedin_logo.png": "/static/media/linkedin_logo.a95afc06831647f5fca2.png",
     "static/media/github_logo.svg": "/static/media/github_logo.b33659390890d2122dd9b0af3643ddfe.svg",
     "index.html": "/index.html",
-    "main.844d3d21.css.map": "/static/css/main.844d3d21.css.map",
-    "main.615994f3.js.map": "/static/js/main.615994f3.js.map",
+    "main.f01f8e34.css.map": "/static/css/main.f01f8e34.css.map",
+    "main.5d0e5de9.js.map": "/static/js/main.5d0e5de9.js.map",
     "453.35732811.chunk.js.map": "/static/js/453.35732811.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.844d3d21.css",
-    "static/js/main.615994f3.js"
+    "static/css/main.f01f8e34.css",
+    "static/js/main.5d0e5de9.js"
   ]
 }
