@@ -11,8 +11,7 @@ import philo_pic from '../assets/philo_screencap.png'
 export default function PortfolioPage(){
 	return (
 		<div className="all-blocks">
-			{/* <div style={{backgroundColor: "#bd71c0", width: "100%", alignContent: "center", textAlign: "center", justifyContent: "center", justifyItems: "center"}}><h2>CODAM Projects</h2></div> */}			
-			<div style={{backgroundColor: "#bd71c0", width: "100%", alignContent: "center", textAlign: "center", justifyContent: "center", justifyItems: "center"}}><h2>CODAM Projects</h2></div>
+			<div style={{color: "white", width: "100%", alignContent: "center", textAlign: "center", justifyContent: "center", justifyItems: "center"}}><h2>CODAM Projects</h2></div>
 			<div className="experience-block">
 				<ProjectPreview
 				ProjectName={"minishell"}
@@ -48,25 +47,25 @@ export default function PortfolioPage(){
 				PicNarrow={false}
 				/>
 				<ProjectPreview
-				ProjectName={"ft_transcendence"}
-				ProjectPic={transcendence_pic}
-				ProjectStack={"TypeScript, React, HTML, Tailwind CSS, ExpressJS, Postgres + Prisma ORM, npm"}
-				ProjectURL={"https://github.com/SmokedSeaSalt/Transcendence"}
-				ProjectDescription={"Team project to build a web application. We chose a multiplayer speed-typing game, where players are connected together in a room using sockets that pass their progress to each other."}
-				ProjNumber="4"
-				PicNarrow={false}
-				/>
-				<ProjectPreview
 				ProjectName={"philosophers"}
 				ProjectPic={philo_pic}
 				ProjectStack={"C, multithreading"}
 				// ProjectURL={""}
 				ProjectDescription={"Solo project in C to implement the dining philophers problem."}
-				ProjNumber="5"
+				ProjNumber="4"
 				PicNarrow={true}
 				/>
+				<ProjectPreview
+				ProjectName={"ft_transcendence"}
+				ProjectPic={transcendence_pic}
+				ProjectStack={"TypeScript, React, HTML, Tailwind CSS, ExpressJS, Postgres + Prisma ORM, npm"}
+				ProjectURL={"https://github.com/SmokedSeaSalt/Transcendence"}
+				ProjectDescription={"Team project to build a web application. We chose a multiplayer speed-typing game, where players are connected together in a room using sockets that pass their progress to each other."}
+				ProjNumber="5"
+				PicNarrow={false}
+				/>
 			</div>
-			<div style={{backgroundColor: "#ffd5ff", width: "100%", height: "100%", alignContent: "center", textAlign: "center", justifyContent: "center", justifyItems: "center"}}><h2>Game Jams</h2></div>
+			<div style={{color: "white", width: "100%", alignContent: "center", textAlign: "center", justifyContent: "center", justifyItems: "center"}}><h2>Game Jams</h2></div>
 			<div className="experience-block">
 			<ProjectPreview
 				ProjectName={"Pixel Forge JAM #2"}

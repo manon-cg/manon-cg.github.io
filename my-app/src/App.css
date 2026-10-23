@@ -117,39 +117,22 @@
 }
 
 .experience-block{
-  background-color: #bd9ccc;
+  /* background-color: #bd9ccc; */
   width: 90vw;
   max-width: 1600px;
   min-height: 100px;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
   margin-bottom: 20px;
   flex-wrap: wrap;
   /* margin-top: 20px; */
-  border-radius: 10px;
+  /* border-radius: 10px; */
   display: flex;
   /* flex-direction: column; */
   position: relative;
   align-items: stretch;
   overflow: hidden;
 }
-
-/* .project-preview{
-  width: 100%;
-  aspect-ratio: 600 / 260;
-  background-image: 'url(' + var(--project-pic) + ')';
-  background-size: cover;
-  background-position: center;
-}  
-
-.project-preview:hover{
-  opacity: 50%;
-} */
-
-.preview-img:hover{
-  opacity: 50%;
-}
-
 
 .preview-img{
   position: absolute;
@@ -165,6 +148,10 @@
 .preview-img-narrow{
   width: 100%;
   height: auto;
+}
+
+.preview-img:hover{
+  opacity: 50%;
 }
 
 
