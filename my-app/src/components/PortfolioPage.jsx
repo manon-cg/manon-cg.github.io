@@ -1,12 +1,12 @@
 import ProjectPreview from './ProjectPreview';
-import so_long_pic from '../assets/so_long_screencap.png'
-import minishell_pic from '../assets/minishell_screencap.png'
-import sf_pic from '../assets/sounds_familiar_cap2.png'
-import f2h_pic from '../assets/f2h_screencap2.png'
-import cub3d_pic from '../assets/cub3d_screencap2.png'
-import webserv_pic from '../assets/webserv_cap.png'
-import transcendence_pic from '../assets/transcendence_screencap.png'
-import philo_pic from '../assets/philo_screencap.png'
+import so_long_pic from '../assets/project_screencaps/so_long_screencap.png'
+import minishell_pic from '../assets/project_screencaps/minishell_screencap.png'
+import sf_pic from '../assets/project_screencaps/sounds_familiar_cap2.png'
+import f2h_pic from '../assets/project_screencaps/f2h_screencap2.png'
+import cub3d_pic from '../assets/project_screencaps/cub3d_screencap2.png'
+import webserv_pic from '../assets/project_screencaps/webserv_cap.png'
+import transcendence_pic from '../assets/project_screencaps/transcendence_screencap.png'
+import philo_pic from '../assets/project_screencaps/philo_screencap.png'
 
 export default function PortfolioPage(){
 	return (

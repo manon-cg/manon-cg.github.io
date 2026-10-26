@@ -8,7 +8,7 @@ Portfolio website built using React and JavaScript.
 
 
 # Planned updates
-- [ ] Links to individual GitHub repositories per project
+- [ ] Links to all individual GitHub repositories (webserv, philosophers, visual projects)
 - [ ] Assembly - cub3d demonstration
 - [ ] Assembly - so_long demonstration
 - [ ] Improve mobile layout

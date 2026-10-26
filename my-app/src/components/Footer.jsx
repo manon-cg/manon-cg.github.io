@@ -1,6 +1,6 @@
 import ImageButton from "./ImageButton";
-import linkedin_img from "../assets/linkedin_logo.png"
-import github_img from "../assets/github_logo.svg"
+import linkedin_img from "../assets/link_logos/linkedin_logo.png"
+import github_img from "../assets/link_logos/github_logo.svg"
 
 export default function Footer(){
 	return (
