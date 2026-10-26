@@ -33,7 +33,6 @@
 }
 
 .main-site {
-  /* height: fit-content; */
   color:rgb(248, 248, 248);
   align-items: center;
   justify-content: center;
@@ -61,12 +60,10 @@
 }
 
 .img-button {
-  /* background-color: #4c0e58; */
   border-radius: 20px;
   background: transparent;
   border: none;
   padding: 10px;
-  /* margin-left: 5px; */
   transition: transform ease 0.2s;
 }
 
@@ -92,13 +89,29 @@
   justify-content: center;
   margin-bottom: 20px;
   flex-wrap: wrap;
-  /* margin-top: 20px; */
-  /* border-radius: 10px; */
   display: flex;
   /* flex-direction: column; */
   position: relative;
   align-items: stretch;
   overflow: hidden;
+}
+
+.preview{
+	/* multiple colours? "#ad88bc", "#ccc2ea" */
+	width: 40%;
+ 	background-color: #d2bcf3;
+	margin: 25px;
+	border-radius: 10px;
+	overflow: hidden;
+  transition: all 200ms ease-out;
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.preview:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in;
 }
 
 .preview-img{
@@ -117,9 +130,9 @@
   height: auto;
 }
 
-.preview-img:hover{
+/* .preview-img:hover{
   opacity: 50%;
-}
+} */
 
 
 /* @keyframes App-logo-spin {
