@@ -2,7 +2,6 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import './App.css';
 import PortfolioPage from './components/PortfolioPage';
-import React from 'react';
 
 function App() {
   return (
