@@ -3,6 +3,10 @@
   background-color: rgb(14, 6, 45);
 }
 
+/* * {
+  background-color: rgb(14, 6, 45);
+} */
+
 .my-header {
   background-color: #463183;
   min-height: 6vh;
@@ -15,8 +19,12 @@
   z-index: 10;
 }
 
+.my-header a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .my-footer {
-  /* background-color: #242769; */
   background-color: rgb(14, 6, 45);
   min-height: 4vh;
   height: fit-content;
@@ -106,7 +114,6 @@
   transition: all 200ms ease-out;
   text-decoration: none;
   color: inherit;
-
 }
 
 .preview:hover {
@@ -130,9 +137,16 @@
   height: auto;
 }
 
-/* .preview-img:hover{
-  opacity: 50%;
-} */
+.error-page {
+  background-color: rgb(14, 6, 45);
+  height: 90vh;
+  color:rgb(248, 248, 248);
+}
+
+.error-page h1 {
+  margin: 0px;
+  padding: 30px;
+}
 
 
 /* @keyframes App-logo-spin {

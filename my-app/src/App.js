@@ -2,32 +2,24 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import './App.css';
 import PortfolioPage from './components/PortfolioPage';
+import ErrorPage from './components/ErrorPage';
+import AboutPage from './components/AboutPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <div className="App">
-        <PortfolioPage />
-      </div>
+      <main className="App">
+        <Routes>
+          <Route path="/" element={<PortfolioPage />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+      </main>
       <Footer />
-
-{/* <header className="App-header">
-  <img src={logo} className="App-logo" alt="logo" />
-  <p>
-    Edit <code>src/App.js</code> and save to reload.
-  </p>
-  <a
-    className="App-link"
-    href="https://reactjs.org"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Learn React
-  </a>
-</header> */}
-
-    </>
+    </BrowserRouter>
   );
 }
 
