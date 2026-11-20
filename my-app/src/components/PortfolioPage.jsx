@@ -50,7 +50,7 @@ export default function PortfolioPage(){
 				ProjectName={"philosophers"}
 				ProjectPic={philo_pic}
 				ProjectStack={"C, multithreading"}
-				// ProjectURL={""}
+				ProjectURL={"https://github.com/manon-cg/philosophers"}
 				ProjectDescription={"Solo project in C to implement the dining philophers problem."}
 				ProjNumber="4"
 				PicNarrow={true}

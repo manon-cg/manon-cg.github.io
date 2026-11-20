@@ -148,12 +148,24 @@
   padding: 30px;
 }
 
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.tooltip-container {
+    display: inline-block;
+    position: relative;
+}
+  
+.tooltip-box {
+  position: absolute;
+  padding: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 10;
+}
+  
+.tooltip {
+  bottom: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+}

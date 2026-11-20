@@ -1,7 +1,11 @@
 import ProjectImage from "./ProjectImage";
+// import 'react-tooltip/dist/react-tooltip.css'
+import Tooltip from './Tooltip'
 
 export default function ProjectPreview({ ProjectName, ProjectPic, ProjectStack, ProjectURL, ProjectDescription, ProjNumber, PicNarrow }){
-	
+
+// https://www.geeksforgeeks.org/reactjs/building-a-tooltip-component-with-react-hooks/
+
 	return (
 		<a href={ProjectURL} className="preview">
 		<div>
