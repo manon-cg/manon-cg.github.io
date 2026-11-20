@@ -104,6 +104,10 @@
   overflow: hidden;
 }
 
+.preview-transform{
+  transition: all 200ms ease-out;
+}
+
 .preview{
 	/* multiple colours? "#ad88bc", "#ccc2ea" */
 	width: 40%;
@@ -111,12 +115,11 @@
 	margin: 25px;
 	border-radius: 10px;
 	overflow: hidden;
-  transition: all 200ms ease-out;
   text-decoration: none;
   color: inherit;
 }
 
-.preview:hover {
+.preview-transform:hover {
   transform: scale(1.05);
   transition: all 200ms ease-in;
 }

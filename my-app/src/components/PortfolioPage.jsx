@@ -21,6 +21,7 @@ export default function PortfolioPage(){
 				ProjectDescription={"Team project to create a Unix shell in C that functions like Bash. Focus points were parsing command line input, process forking, I/O redirection and basic signal handling."}
 				ProjNumber="0"
 				PicNarrow={false}
+				Transform={"preview-transform"}
 				/>
 				<ProjectPreview
 				ProjectName={"cub3d"}
@@ -54,6 +55,7 @@ export default function PortfolioPage(){
 				ProjectDescription={"Solo project in C to implement the dining philophers problem."}
 				ProjNumber="4"
 				PicNarrow={true}
+				Transform={"preview-transform"}
 				/>
 				<ProjectPreview
 				ProjectName={"ft_transcendence"}
@@ -63,6 +65,7 @@ export default function PortfolioPage(){
 				ProjectDescription={"Team project to build a web application. We chose a multiplayer speed-typing game, where players are connected together in a room using sockets that pass their progress to each other."}
 				ProjNumber="5"
 				PicNarrow={false}
+				Transform={"preview-transform"}
 				/>
 			</div>
 			<div style={{color: "white", width: "100%", alignContent: "center", textAlign: "center", justifyContent: "center", justifyItems: "center"}}><h2>Game Jams</h2></div>
@@ -75,6 +78,7 @@ export default function PortfolioPage(){
 				ProjectDescription={"Game built with a team in Godot during a weeklong game jam."}
 				ProjNumber="6"
 				PicNarrow={true}
+				Transform={"preview-transform"}
 			/>
 			<ProjectPreview
 				ProjectName={"CODAM Game Jam"}
@@ -84,6 +88,7 @@ export default function PortfolioPage(){
 				ProjectDescription={"Game built with a team in Godot during a weeklong game jam."}
 				ProjNumber="7"
 				PicNarrow={false}
+				Transform={"preview-transform"}
 			/>
 			</div>
 			{/* <div className="experience-block">Websites</div> */}
